@@ -1,0 +1,186 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "TAILOR4J",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CLOTHING_MANUFACTURING\\TAILOR4J\\UPSTREAM_CLONE",
+    "git": {
+      "head": "1d9991c1c3efd7be7d551b6d4e53c6ef6d46da4d",
+      "url": "https://github.com/InderParmar/Tailor4Job.git",
+      "branch": "main",
+      "committed_at": "2024-12-01T19:16:11-05:00"
+    }
+  },
+  "metrics": {
+    "files_total": 25,
+    "source_files_scanned": 4,
+    "lines_of_code": 247,
+    "languages": {
+      "(none)": 5,
+      ".docx": 4,
+      ".md": 2,
+      ".sh": 2,
+      ".py": 2,
+      ".json": 2,
+      ".pdf": 2,
+      ".yaml": 1,
+      ".toml": 1,
+      ".ini": 1,
+      ".txt": 1,
+      ".yml": 1,
+      ".png": 1
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 0,
+    "unique": 0,
+    "by_ecosystem": {},
+    "list": []
+  },
+  "owasp_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 0,
+        "findings": []
+      },
+      "A04-InsecureDesign": {
+        "count": 0,
+        "findings": []
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 0,
+        "findings": []
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:0707ccce-2843-5dd3-be87-7d4e72d8bddb",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T15:28:07Z",
+      "component": {
+        "type": "application",
+        "name": "TAILOR4J",
+        "version": "1d9991c1c3ef",
+        "bom-ref": "pkg:generic/anticloud/TAILOR4J@1d9991c1c3ef",
+        "purl": "pkg:generic/anticloud/TAILOR4J@1d9991c1c3ef",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "1d9991c1c3efd7be7d551b6d4e53c6ef6d46da4d"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/InderParmar/Tailor4Job.git"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": []
+  },
+  "elapsed_seconds": 9.55
+}

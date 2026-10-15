@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0707ccce-2843-5dd3-be87-7d4e72d8bddb",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T15:28:07Z",
+    "component": {
+      "type": "application",
+      "name": "TAILOR4J",
+      "version": "1d9991c1c3ef",
+      "bom-ref": "pkg:generic/anticloud/TAILOR4J@1d9991c1c3ef",
+      "purl": "pkg:generic/anticloud/TAILOR4J@1d9991c1c3ef",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "1d9991c1c3efd7be7d551b6d4e53c6ef6d46da4d"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/InderParmar/Tailor4Job.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
